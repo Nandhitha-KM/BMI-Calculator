@@ -26,6 +26,7 @@ BMI = weight / (height × height)
 
 Where:
 - Height is converted from cm to meters
+- Weight is in kilograms
 
 ## 📌 Features
 
@@ -45,5 +46,5 @@ Where:
 ##  Author
 
 Developed as part of a React practical project.
-- Weight is in kilograms
+
 
