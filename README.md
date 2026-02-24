@@ -13,9 +13,16 @@ After clicking **Calculate BMI**, it displays the BMI category such as:
 - Overweight
 - Obese
 
+
+---
+
 ##  Project Structure
 
 <img width="251" height="583" alt="image" src="https://github.com/user-attachments/assets/422b5086-baa0-40e1-b9a0-0461962b5c93" />
+
+
+
+---
 
 
 ## How BMI is Calculated
@@ -27,6 +34,11 @@ BMI = weight / (height × height)
 Where:
 - Height is converted from cm to meters
 - Weight is in kilograms
+
+
+
+---
+
 
 ## 📌 Features
 
