@@ -1,16 +1,49 @@
-# React + Vite
+# BMI Calculator (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple BMI (Body Mass Index) Calculator built using React and Vite.
 
-Currently, two official plugins are available:
+The application allows the user to enter:
+- Name
+- Height (in cm)
+- Weight (in kg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+After clicking **Calculate BMI**, it displays the BMI category such as:
+- Underweight
+- Healthy
+- Overweight
+- Obese
 
-## React Compiler
+##  Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img width="251" height="583" alt="image" src="https://github.com/user-attachments/assets/422b5086-baa0-40e1-b9a0-0461962b5c93" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How BMI is Calculated
+
+BMI Formula:
+
+BMI = weight / (height × height)
+
+Where:
+- Height is converted from cm to meters
+
+## 📌 Features
+
+✔ User input validation  
+✔ Separate logic file (bmi.js)  
+✔ Component-based structure  
+✔ Clean UI using JSX  
+
+---
+
+
+<img width="600" height="723" alt="image" src="https://github.com/user-attachments/assets/f1988c9d-0519-48f5-b76d-119bdef5fa23" />
+
+<img width="600" height="795" alt="image" src="https://github.com/user-attachments/assets/43be7ff2-e476-4d14-8435-6601065eaf6f" />
+
+
+##  Author
+
+Developed as part of a React practical project.
+- Weight is in kilograms
+
